@@ -1,1 +1,5 @@
-
+name: 'AirScape Fan'
+packageKey: 'airscape-whf'
+permissions:
+  lan: {}
+  discovery: {}
