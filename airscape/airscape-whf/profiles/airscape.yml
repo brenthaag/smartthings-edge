@@ -1,1 +1,31 @@
-
+name: airscape
+components:
+- id: main
+  capabilities:
+  - id: switch
+    version: 1
+  - id: switchLevel
+    version: 1
+  - id: fanSpeed
+    version: 1
+  - id: button
+    version: 1
+  - id: refresh
+    version: 1
+  categories:
+  - name: Fan
+metadata:
+  deviceType: Fan
+  ocfDeviceType: oic.d.fan
+  deviceTypeId: Fan
+  vid: 12a872c0-6b74-3e99-ace1-2ff81e1f283b
+  mnmn: SmartThingsCommunity
+preferences:
+  - title: "Fan IP Address"
+    name: fanAddress
+    description: "Enter IP address of fan"
+    required: true
+    preferenceType: string
+    definition:
+      stringType: text
+      default: ""
