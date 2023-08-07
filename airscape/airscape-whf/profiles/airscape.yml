@@ -28,4 +28,6 @@ preferences:
     preferenceType: string
     definition:
       stringType: text
-      default: ""
+      minLength: 7
+      maxLength: 15
+      default: "192.168.1.n"
